@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  background: linear-gradient(
+    to right,
+    #a1ffce,
+    #faffd1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header {
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.14);
+  background-color: limegreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .realtimeCurrency {
+    align-self: flex-end;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  }
+}
+.wrapper {
+  width: 900px;
+  height: 600px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.169);
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.177);
+  border-radius: 10px;
+  .currencyBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}
