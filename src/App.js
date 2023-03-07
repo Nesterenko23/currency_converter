@@ -75,6 +75,9 @@ function App() {
             </div>
           </header>
           <div className={styles.wrapper}>
+            <div className={styles.title}>
+            <span>Select the desired currency and enter the values</span>
+            </div>
             <div className={styles.currencyBlock}>
               <CurrencyInput
                 onAmountChange={handleAmount1Change}

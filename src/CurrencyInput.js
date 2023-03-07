@@ -7,6 +7,8 @@ function CurrencyInput(props) {
   return (
     <div className={styles.wrapper}>
       <TextField
+        helperText="Touch for input value"
+        type="number"
         variant="outlined"
         value={props.amount}
         onChange={(e) => props.onAmountChange(e.target.value)}
